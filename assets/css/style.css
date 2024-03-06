@@ -1031,7 +1031,10 @@ section {
 --------------------------------------------------------------*/
 .contact .info {
   width: 100%;
-  background: #fff;
+  background: #fff; 
+  display: block;     
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .contact .info i {
@@ -1073,6 +1076,9 @@ section {
 .contact .info .phone:hover i {
   background: #0563bb;
   color: #fff;
+  display: block;           
+  margin-right: auto; 
+  margin-left: auto;
 }
 
 .contact .php-email-form {
